@@ -8,8 +8,8 @@
 	<meta name="author" content="Arunava Chakraborty">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="./dependencies/bulma.min.css">
     <link rel="stylesheet" href="./lib/style.css">
+    <link rel="stylesheet" href="./dependencies/bulma.min.css">
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="./dependencies/jquery.min.js"></script>
@@ -45,7 +45,7 @@
               <p class="control">
                 <a class="button is-primary" href="https://github.com/iArunava/Blemger/">
                   <span class="icon">
-                    <i class="fas fa-github"></i>
+                    <i class="fab fa-github"></i>
                   </span>
                   <span> Check out the Repository </span>
                 </a>
@@ -55,6 +55,15 @@
         </div>
       </div>
     </nav>
+
+    <div id="id--blended-modal" class="blend--modal">
+        <span id="btn--close-blend-modal" class="close">&times;</span>
+        <div class="blend--modal-content">
+            <canvas id="id--blended-canvas" height="768" width="1024" style="border:1px solid #d3d3d3;"></canvas>
+        </div>
+    </div>
+
+    <canvas id="id--hidden-canvas" height="768" width="1024" style="border:1px solid #d3d3d3;display:none;"></canvas>
 
     <div class="container">
         <div class="columns">
@@ -85,6 +94,20 @@
                 </div>
             </div>
         </div>
+
+        <div class="center--btn">
+            <a id="btn--blend" class="button is-large is-success blend--btn">Blemger it!</a>
+        </div>
     </div>
+
+    <div class="margin--20"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p> Made with &#10084; by Arunava </p>
+            </div>
+        </div>
+    </footer>
     <script src='./lib/script.js'></script>
 </body>
