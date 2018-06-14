@@ -20,3 +20,11 @@
 .class--inline {
     float: left;
 }
+
+.margin--bottom-0 {
+    margin-bottom: 0px !important;
+}
+
+.margin-5 {
+    margin: 5px;
+}
