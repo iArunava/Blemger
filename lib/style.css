@@ -1,3 +1,8 @@
+/*
+Red   -> #F44336
+Green -> #8BC34A
+Blue  -> #2196F3
+*/
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
 * {
@@ -38,6 +43,68 @@
     color: #262121;
 }
 
+.slider-container {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.6;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.slider.slider--green::-webkit-slider-thumb {
+    background: #8BC34A;
+}
+
+.slider.slider--red::-webkit-slider-thumb {
+    background: #F44336;
+}
+
+.slider.slider--blue::-webkit-slider-thumb {
+    background: #2196F3;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.slider.slider--green::-moz-range-thumb {
+    background: #8BC34A;
+}
+
+.slider.slider--red::-moz-range-thumb {
+    background: #F44336;
+}
+
+.slider.slider--blue::-moz-range-thumb {
+    background: #2196F3;
+}
+
 .class--title {
     font-size: 40px;
 }
@@ -58,8 +125,8 @@
     margin-bottom: 0px !important;
 }
 
-.margin-5 {
-    margin: 5px;
+.margin--top-10 {
+    margin-top: 10px;
 }
 
 .margin--20 {
