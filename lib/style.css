@@ -139,9 +139,19 @@ Blue  -> #2196F3
     justify-content: center;
 }
 
-.blend--btn {
-    padding-left: 2.75em;
-    padding-right: 2.75em;
+#btn--blend {
+    font-size: 30px;
+}
+
+.footer--text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#span--heart {
+    font-size: 30px;
+    color: #E53935;
+    animation: heartbeat 2.5s infinite;
 }
 
 @keyframes opac {
@@ -162,4 +172,16 @@ Blue  -> #2196F3
 @-webkit-keyframes opacrev {
     0% {opacity: 1;}
     100% {opacity: 0;}
+}
+
+@keyframes heartbeat {
+    0% {font-size: 30px;}
+    50% {font-size: 60px;}
+    100% {opacity: 30px;}
+}
+
+@-webkit-keyframes heartbeat {
+    0% {font-size: 30px;}
+    50% {font-size: 60px;}
+    100% {opacity: 30px;}
 }
