@@ -155,7 +155,6 @@ Blue  -> #2196F3
 #span--heart {
     font-size: 30px;
     color: #E53935;
-    animation: heartbeat 2.5s infinite;
 }
 
 @keyframes opac {
