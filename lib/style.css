@@ -129,6 +129,10 @@ Blue  -> #2196F3
     margin-top: 10px;
 }
 
+.margin--10 {
+    margin: 10px;
+}
+
 .margin--20 {
     margin: 20px;
 }
