@@ -36,16 +36,17 @@
                     Options
                 </a>
                 <div class="navbar-dropdown is-boxed">
-                    <label class="checkbox">
-                        <input id="id--aslider-checkbox" class="margin--10" type="checkbox"> Enable Alpha Slider
+                    <label class="navbar-item checkbox">
+                        <input id="id--aslider-checkbox" class="checkbox--margin" type="checkbox"> Enable Alpha Slider
                     </label>
-                    <label class="checkbox">
-                        <input id="id--bwh-max" class="margin--10" type="checkbox"> Make Blemgered image height and width max of the two images
+                    <label class="navbar-item checkbox">
+                        <input id="id--bwh-max" class="checkbox--margin" type="checkbox"> Make Blemgered image height and width max of the two images
                     </label>
-                    <label class="checkbox">
-                        <input id="id--heart-beat" class="margin--10" type="checkbox"> Make the heart beat!
+                    <label class="navbar-item checkbox">
+                        <input id="id--heart-beat" class="checkbox--margin" type="checkbox"> Make the heart beat!
                     </label>
                 </div>
+            </div>
             <div class="navbar-item">
                 <div class="field is-grouped">
                   <p class="control">
@@ -93,7 +94,25 @@
                   </div>
                   <div class="card-content">
                     <div id="id--image1-bar" class="content">
-                        <input type="file" id="id--inp-img1" onchange="setImage(this)">
+                        <!--<input type="file" id="id--inp-img1" onchange="setImage(this)">-->
+
+                        <div class="file has-name is-fullwidth">
+                          <label class="file-label">
+                            <input id="id--inp-img1" class="file-input" type="file" onchange="setImage(this)">
+                            <span class="file-cta">
+                              <span class="file-icon">
+                                <i class="fas fa-upload"></i>
+                              </span>
+                              <span class="file-label">
+                                Choose a file…
+                              </span>
+                            </span>
+                            <span id="id--inplab-img1" class="file-name">
+                              Screen Shot 2017-07-29 at 15.54.25.png
+                            </span>
+                          </label>
+                        </div>
+
                     </div>
                   </div>
                 </div>
@@ -108,7 +127,25 @@
                   </div>
                   <div class="card-content">
                     <div id="id--image2-bar" class="content">
-                        <input type="file" id="id--inp-img2" onchange="setImage(this)">
+                        <!--<input type="file" id="id--inp-img2" onchange="setImage(this)">-->
+
+                        <div class="file has-name is-fullwidth">
+                          <label class="file-label">
+                            <input id="id--inp-img2" class="file-input" type="file" onchange="setImage(this)">
+                            <span class="file-cta">
+                              <span class="file-icon">
+                                <i class="fas fa-upload"></i>
+                              </span>
+                              <span class="file-label">
+                                Choose a file…
+                              </span>
+                            </span>
+                            <span id="id--inplab-img2" class="file-name">
+                              Screen Shot 2017-07-29 at 15.54.25.png
+                            </span>
+                          </label>
+                        </div>
+
                     </div>
                   </div>
                 </div>
