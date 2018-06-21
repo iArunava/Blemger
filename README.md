@@ -4,7 +4,9 @@ Blemger is a Web Application that can be used to create a nice blend between two
 with 3 planes Red, Green and Blue with the ability to control freely
 the ratio how each plane would effect the resulting blended image.
 
-The blending even works with images that differ in its height and width. [See more]()
+The blending even works with images that differ in its height and width. [See more](#max-height-and-width-of-blemgered-image)
+
+Head here and create great blends!! [Blemger](https://iarunava.github.io/Blemger/)
 
 ## How it works?
 
