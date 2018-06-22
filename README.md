@@ -10,6 +10,10 @@ _Note:_ You can press `Esc` key to close the modal image.
 
 Head here and create great blends!! [Blemger](https://iarunava.github.io/Blemger/)
 
+## Take a quick look!
+
+![blemger](https://user-images.githubusercontent.com/26242097/41759151-9610bc8c-760a-11e8-8d50-7f676cfe31f9.png)
+
 ## How it works?
 
 Blemger is developed around the concept of _linear blend_ where each pixel in the blended image is a mapping from both the input images and the resulting pixel is
