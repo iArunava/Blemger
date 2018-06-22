@@ -6,6 +6,8 @@ the ratio how each plane would effect the resulting blended image.
 
 The blending even works with images that differ in its height and width. [See more](#max-height-and-width-of-blemgered-image)
 
+_Note:_ You can press `Esc` key to close the modal image.
+
 Head here and create great blends!! [Blemger](https://iarunava.github.io/Blemger/)
 
 ## How it works?
@@ -43,7 +45,7 @@ That is in case of linear blend the equation looks like This
 
 That said it can be disabled from the options menu.
 
-**How does this help?**
+_How does this help?_
 
 Well, it helps create nice blends!
 If you disable it, i.e. the multiplicative factors sums up to be greater than `1` then its most likely that you will overshoot `255` when summing the images up and undershoot `0` when negating the images, which will result in highly bright(white pixles) and highly dark(black pixels) in the resulting blended image.
